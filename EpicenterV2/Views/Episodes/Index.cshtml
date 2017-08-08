@@ -1,0 +1,22 @@
+﻿@using EpicenterV2.Models
+@model IEnumerable<Episode>
+
+<h1>@Model.FirstOrDefault().ShowName</h1>
+
+<table class="table-condensed">
+    <tr>
+        <th>Season</th>
+        <th>Episode</th>
+        <th>Description</th>
+        <th>Rating</th>
+    </tr>
+    @foreach (var episode in Model)
+    {
+        <tr>
+            <td>@episode.SeasonNumber</td>
+            <td>@episode.EpisodeNumber</td>
+            <td>@episode.Description</td>
+            <td>@episode.Rating</td>
+        </tr>
+    }
+</table>

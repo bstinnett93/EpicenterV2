@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicenterV2", "EpicenterV2\EpicenterV2.csproj", "{3385117A-C8D1-43F5-A344-DB0F018A9CAA}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EpicenterV2.Database", "EpicenterV2.Database\EpicenterV2.Database.sqlproj", "{AD78137F-76B9-4CC7-AA72-D4E0964A0D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicenterV2.Data", "EpicenterV2.Data\EpicenterV2.Data.csproj", "{AD897BAE-E8E8-4855-A9A5-98C5BADA87FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicenterV2.Tests", "EpicenterV2.Tests\EpicenterV2.Tests.csproj", "{2A20B335-A026-4CB7-9E89-88E9E0716975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,20 @@ Global
 		{3385117A-C8D1-43F5-A344-DB0F018A9CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3385117A-C8D1-43F5-A344-DB0F018A9CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3385117A-C8D1-43F5-A344-DB0F018A9CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD78137F-76B9-4CC7-AA72-D4E0964A0D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD78137F-76B9-4CC7-AA72-D4E0964A0D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD78137F-76B9-4CC7-AA72-D4E0964A0D10}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD78137F-76B9-4CC7-AA72-D4E0964A0D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD78137F-76B9-4CC7-AA72-D4E0964A0D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD78137F-76B9-4CC7-AA72-D4E0964A0D10}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AD897BAE-E8E8-4855-A9A5-98C5BADA87FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD897BAE-E8E8-4855-A9A5-98C5BADA87FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD897BAE-E8E8-4855-A9A5-98C5BADA87FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD897BAE-E8E8-4855-A9A5-98C5BADA87FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A20B335-A026-4CB7-9E89-88E9E0716975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A20B335-A026-4CB7-9E89-88E9E0716975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A20B335-A026-4CB7-9E89-88E9E0716975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A20B335-A026-4CB7-9E89-88E9E0716975}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
